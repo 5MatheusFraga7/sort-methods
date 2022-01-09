@@ -1,11 +1,51 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
 .container {
     justify-content: center;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;  
 }
-.numbers-container {
+.options-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.label_text {
+    font-family: 'Oswald', sans-serif;
+    padding: 20px;
+    color: #DBD8E3;  
+    font-weight: 600; 
+    font-size: 40px;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.number-container {
+    position: relative;
+    background: #5c5470;
+    height: 500px;
+    width: auto;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
-    padding: 20px; 
+    align-items: center;
+}
+.random_number {
+    position: relative;
+    background: #dbd8e3;
+    height: 60px;
+    font-size: 20px;
+    text-align: center;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 2px 10px 1px rgb(42 36 56); 
 }
