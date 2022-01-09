@@ -1,0 +1,11 @@
+.container {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.numbers-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px; 
+}
